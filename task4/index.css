@@ -73,25 +73,46 @@ align-items: center;
 justify-content: center;
 background-color: gray;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .boxB{
 
-flex-basis: 100%;
+flex-basis: 73.33% !important;
     }
     .boxE{
 
-        flex-basis: 100%;
+        flex-basis: 24% !important;
             }
             .boxC{
 
-                flex-basis: 48% ;
+                flex-basis: 25% !important ;
           
             }
             
         .boxD{
 
-        flex-basis: 48%  ;
+        flex-basis: 72%  !important ;
+                 
+      }
+            }
+
+@media screen and (max-width: 768px) {
+    .boxB{
+
+flex-basis: 73%  !important;
+    }
+    .boxE{
+
+        flex-basis: 23.33% !important;
+            }
+            .boxC{
+
+                flex-basis: 23.33% !important ;
+          
+            }
+            
+        .boxD{
+
+        flex-basis: 73%   !important;
                  
       }
             }
@@ -154,12 +175,27 @@ flex-basis: 100%;
             
             @media screen and (max-width: 425px) {
 
-                .boxC{
+                .boxB{
     
-                    flex-basis: 46% !important;
+                    flex-basis: 100% !important;
               
                 }
                 
+
+                .boxE{
+    
+                    flex-basis: 100% !important;
+              
+                }
+
+                .boxC{
+                    
+                    flex-basis: 46%  !important;
+                    
+                }
+                
+                
+
             .boxD{
     
             flex-basis: 47% !important;
